@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-lab2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="color: darkslategrey;" style="font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+    <header style="color: forestgreen;">Feito por: Vinícius Batista de Moraes</header>
+
+    <h1 style="color:crimson">Bem vindo ao meu site "complexo"</h1>
+    <p style="font-size: 16px;">Esse é o site que eu fiz para o lab 2 de PI desenvolvimento de sistemas web, espero que goste professor!</p>
+    <img src="https://sm.ign.com/t/ign_br/review/d/deadpool-r/deadpool-review_577q.1200.jpg" width="500" height="300" alt="Imagem">
+
+    <h2 style="color:crimson">Aqui é onde se encontra as listas, o texto foi feito usando o h2.</h2>
+    <label for="ul">Coisas nas quais tive mais dificuldade:</label>
+    <ul>
+        <li>Perceber que eu precisava dos links da internet dos audios e videos hahaha</li>
+        <li>O uso do styles, me deixou meio confuso por isso tá aqui : )</li>
+        <li>O Label porque eu esqueci que precisava do for hahahaha</li>
+    </ul>
+    <p>Eu usei a lista não ordenada para mostrar onde tive mais dificuldade, só aproveitei que era uma lista mesmo haha</p>
+
+    <h3 style="color:crimson">Meu exemplo de lista ordenada:</h3>
+    <ol>
+        <li>Fazer o head do site</li>
+        <li>Fazer o body do site</li>
+        <li>Estilizar o site</li>
+    </ol>
+    <p>Eu usei a lista ordenada pra separar a ordem do que eu fiz pra fazer esse site</p>
+
+    <h4 style="color:crimson">Hora do formulário</h4>
+    <p>aqui eu fiz a parte do form que era um dos requisitos do lab 2!</p>
+    <form>
+        <label for="nome"> nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="escolha">Fruta favorita:</label>
+        <select name="escolha" id="escolha">
+            <option value="pera">Pera</option>
+            <option value="macaverde">Maça verde</option>
+            <option value="banana">Banana</option>
+        </select><br><br>
+        <Label for="comentario">comentário:</Label><br>
+        <textarea name="comentario" id="comentario" rows="4" cols="50"></textarea><br><br>
+        <input type="submit">
+    </form>
+
+    <h5 style="color:crimson">Aqui eu fiz um circulo e um retângulo usando o canvas e o svg!</h5>
+    <h6 style="color: mediumseagreen;">Que tambem era um dos requisitos do lab 2 hehe</h6>
+    <canvas id="mycanvas" width="200" height="100" style="border:1px solid #13e973;"></canvas>
+    <script>
+        var c = document.getElementById("mycanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#00FF00";
+        ctx.fillRect(20, 20, 150, 75);
+    </script>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="8" fill="yellow"></circle>
+    </svg>
+
+    <h4 style="color:crimson">E por ultimo, mas não menos importante, eu peguei um video.mp4 e um audio.mp3 da internet para mostrar aqui!</h4>
+    <video controls width="320">
+        <source src="https://file-examples.com/storage/fe519944ff66ba53b99c446/2017/04/file_example_MP4_640_3MG.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo
+    </video>
+    <p></p>
+    <audio controls>
+        <source src="https://samples-files.com/samples/Audio/mp3/sample-file-4.mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução de áudio
+    </audio>
+    <p>Eu não achei uma variedade de audios e videos infelizmente, mas eu tentei pegar os melhores na minha opinião</p>
+    
+    <h6 style="color: mediumseagreen;">H6 esteve aqui!!!</h6>
+    <footer>
+        <a href=https://www.puc-campinas.edu.br style="color: forestgreen;">Site da Puc campinas</a>
+    </footer>
+</body>
+</html>
